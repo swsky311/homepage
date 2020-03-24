@@ -14,87 +14,205 @@
 		.header-wrap{
 			background:url(images01/main.jpg) no-repeat center;
 			background-size:cover;
+			height: 600px;
 		}
 
 		/*color*/
 		.gray{background-color: #f0f1f4;}
+
+		.bestmenu {
+		    background-position: center bottom !important;
+		    background-color: #fff !important;
+		    margin: 0 1%;
+		    padding: 0;
+		    background-size: 335px !important;
+		    background-repeat: no-repeat !important;
+		    height: 430px;
+		    max-width: 23%;
+		    box-shadow: 0 5px 15px 0 #111;
+		}
+		.row {
+    		display: flex;
+    		flex-wrap: wrap
+		    margin-right: -15px;
+		    margin-left: -15px;
+		}
+		#services{
+			padding-top:6rem;
+			padding-bottom:6rem;
+		}
 	</style>
 
 </head>
 <body>
-<div class="bg-danger menu-top">
-	<div class="container">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-danger"> <!-- https://hackerthemes.com/bootstrap-cheatsheet/ navbar-expand -->
-		  <a class="navbar-brand" href="#!"><img src="images01/logo.png"></a>
-		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
-		  
+<div class="bg-danger">
 		
-		  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-		    <ul class="navbar-nav mr-auto ml-auto mt-2 mt-md-0">
-		      <li class="nav-item active">
-		        <a class="nav-link" href="#!">BRAND <span class="sr-only">(current)</span></a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#!">MENU</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#!">STORE</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="#!">COMMUNITY</a>
-		      </li>
-		    </ul>
-		  </div>
-		</nav>
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-danger bg-danger">
+			  
+			  <a class="navbar-brand" href="#!"><img src="images01/logo.png"></a>
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			    <ul class="navbar-nav m-auto mt-2 mt-md-0">
+			      
+		        <li class="nav-item dropdown">
+				      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+				        메뉴소개
+				      </a>
+				      <div class="dropdown-menu dropdown-menu-left">
+				        <a class="dropdown-item" href="#">Link 1</a>
+				        <a class="dropdown-item" href="#">Link 2</a>
+				        <a class="dropdown-item" href="#">Link 3</a>
+				      </div>
+			    </li>
+			    	<li class="nav-item dropdown">
+				      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+				        가맹문의
+				      </a>
+				      <div class="dropdown-menu dropdown-menu-left">
+				        <a class="dropdown-item" href="#">Link 1</a>
+				        <a class="dropdown-item" href="#">Link 2</a>
+				        <a class="dropdown-item" href="#">Link 3</a>
+				      </div>
+			    	</li>
+			    	<li class="nav-item dropdown">
+				      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+				        이벤트
+				      </a>
+				      <div class="dropdown-menu dropdown-menu-left">
+				        <a class="dropdown-item" href="#">Link 1</a>
+				        <a class="dropdown-item" href="#">Link 2</a>
+				        <a class="dropdown-item" href="#">Link 3</a>
+				      </div>
+			    	</li>
+			    	<li class="nav-item dropdown">
+				      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+				        매장정보
+				      </a>
+				      <div class="dropdown-menu dropdown-menu-left">
+				        <a class="dropdown-item" href="#">Link 1</a>
+				        <a class="dropdown-item" href="#">Link 2</a>
+				        <a class="dropdown-item" href="#">Link 3</a>
+				      </div>
+			    	</li>
+			    	<li class="nav-item dropdown">
+				      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+				        고객안내
+				      </a>
+				      <div class="dropdown-menu dropdown-menu-left">
+				        <a class="dropdown-item" href="#">Link 1</a>
+				        <a class="dropdown-item" href="#">Link 2</a>
+				        <a class="dropdown-item" href="#">Link 3</a>
+				      </div>
+			    	</li>
+			    </ul>
+			
+			    <!-- search -->
+			  </div>
+			</nav>
+		</div>
 	</div>
-</div>
 
 <div class="header-wrap pb-5"> 
-	<div class="container text-center text-white">
+	<!-- <div class="container text-center text-white">
 		<h1 class="pt-5">Lorem ipsum dolor sit amet.</h1>
 		<h4 class="mt-4 pb-5">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Non, voluptate?</h4>
-
+	
 		<div class="d-none d-md-block">
 			<a href="#!" class="btn btn-primary">Upload Project</a>
 		</div>
-
+	
 		<div class="d-none d-md-block mt-4">
 			<img src="images/drop-icon.png" alt="">
 		</div>
-
+	
 		<p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur<br>adipisicing elit. Asperiores, consequuntur!</p>
-	</div>
+	</div> -->
 </div>
-<section class="gray py-5"> <!-- py-5 위아래를 벌려준다 pt-5 pb-5와 같다 -->
+<section class="gray py-5"> 
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-md-5 text-center text-md-left mb-5"> <!-- 모바일 화면에서 꽉 참 col-12는 기본값이므로 생략 가능함 --> 
-				<h2>Lorem ipsum dolor sit.</h2>
-				<p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consectetur excepturi vero odio quae eos ratione ipsum aliquid quas officia.</p>
-				<a href="#!" class="btn btn-primary mt-3 d-block d-md-inline">more</a>
+			<div class="col-12 col-md-6 text-center text-md-left mb-5"> 
+				<h2>NOTICE</h2>
+				<ul>
+					<li class="mt-2">[19.03.12]고객센터 전화번호 변경 안내</li>
+					<li class="mt-2">[20.03.02]코로나19 예방을 위한 선결제 및 비대면접촉(제품수령) 권장</li>
+					<li class="mt-2">[20.03.02]코로나19 예방을 위한 선결제 및 비대면접촉(제품수령) 권장</li>
+					<li class="mt-2">[20.01.15]엽기떡볶이 짜장맛 신제품 출시 지연 안내</li>
+				</ul>
+				<a href="#!" class="btn mt-3 pl-0 d-block d-md-inline" style="font-size: 25px;">more <img src="images01/button.png"></a>
 			</div>
-			<div class="col-12 col-md-7">
-				<img src="images/symu-panel-1.png" alt="" style="width: 100%;">
+			<div class="col-12 col-md-6 text-center text-md-left mb-5"> 
+				<h2>EVENT</h2>
+				<ul>
+					<li class="mt-2">[20.03.20 ~ 20.04.30] 4월 엽기떡볶이 짜장맛 후기 이벤트</li>
+					<li class="mt-2">[20.03.19] ♥ 짜장맛 출시 ♥</li>
+					<li class="mt-2">[20.01.01 ~ 20.06.30] 방문포장 할인 이벤트, 기간연장!</li>
+					<li class="mt-2">[19.12.01 ~ 20.06.30] 배달주문 할인 이벤트, 기간연장!</li>
+				</ul>
+				<a href="#!" class="btn mt-3 pl-0 d-block d-md-inline" style="font-size: 25px;">more <img src="images01/button.png"></a>
 			</div>
 		</div>
-	</div>
+
+		
 </section>
-<section class=" py-5">
-	<div class="container">
+<section>
+	<div class="container-visual">
 		<div class="row">
-			<div class="col-12 col-md-7 d-none d-md-block">
-				<img src="images/symu-panel-2.png" alt="" style="width: 100%;">
+			<div class="col-12 col-md-12">
+				<img src="images01/visual.jpg" alt="" style="width: 100%; height:400px">
 			</div>
-			<div class="col-12 col-md-5 text-center text-md-left mb-0 mb-md-5">
-				<h2>Lorem ipsum dolor sit.</h2>
-				<p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consectetur excepturi vero odio quae eos ratione ipsum aliquid quas officia.</p>
-				<a href="#!" class="btn btn-primary mt-3 d-block d-md-inline">more</a>
-			</div>
+			
 			
 		</div>
 	</div>
+
+	<section id="services" class="d-none d-md-none d-lg-block" 
+			style="background: url(images01/bg_menu1.jpg);">
+		<div class="container-2" style="text-align:center;">
+        	<p style="font-size:2.4rem;font-weight:400;color:#fff;">YUPDDUK MENU</p>
+        	<h2 class="section-heading mb-5 bigtranh2 pb-4" 
+        	style="font-size:1.2rem;font-weight:300;margin-top:10px;color:#fff;opacity:0.8;">엽기떡볶이가 추천합니다.</h2>
+        </div>
+        <div class="container-2 pb-4">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center bestmenu" style="background:url(images01/menu01.png);">
+            <div class="service-box mt-2 mx-auto ">
+              <!--<img src="../images/main/text_yudduk.png" style="width:125px;margin-top:40px;" alt="엽떡" />-->
+                <p style="font-size:1.8rem;font-weight:400;padding-top:2rem;color:#8c6239;font-weight:600;">YUPDDUK</p>
+              <p>매운 맛의 원조</p>
+              <a href="/sub/hotmenu?mode=1">more</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center bestmenu" style="background:url(images01/menu02.png);">
+            <div class="service-box mt-2 mx-auto ">
+              <!--<img src="../images/main/text_side.png" style="width:125px;margin-top:40px;" alt="사이드" />-->
+                <p style="font-size:1.8rem;font-weight:400;padding-top:2rem;color:#8c6239;font-weight:600;">SIDE</p>
+              <p>핫시즈너 사이드메뉴</p>
+              <a href="/sub/hotmenu?mode=2">more</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center bestmenu" style="background:url(images01/menu03.png);">
+            <div class="service-box mt-2 mx-auto ">
+              <!--<img src="../images/main/text_topping.png" style="width:125px;margin-top:40px;" alt="토핑" />-->
+                <p style="font-size:1.8rem;font-weight:400;padding-top:2rem;color:#8c6239;font-weight:600;">TOPPING</p>
+              <p>토핑으로 더욱 맛있게!</p>
+              <a href="/sub/hotmenu?mode=3">more</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center bestmenu" style="background:url(images01/menu04.png);">
+                <p style="font-size:1.8rem;font-weight:400;padding-top:2rem;color:#8c6239;font-weight:600;">SET</p>
+            <div class="service-box mt-2 mx-auto ">
+              <!--<img src="../images/main/text_set.png" style="width:125px;margin-top:40px;" alt="세트" />-->
+              <p>다양한 세트메뉴</p>
+              <a href="/sub/hotmenu?mode=4">more</a>
+            </div>
+          </div>
+        </div>
+          </div>
+        </section>
 </section>
 <section class="gray py-5">
 	<div class="container">
